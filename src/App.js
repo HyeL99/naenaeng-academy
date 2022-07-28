@@ -1,4 +1,6 @@
 import './App.css';
+import './css/reset.css'
+import './css/commen.css'
 import {Routes, Route} from "react-router-dom"
 import Top from './components/Top';
 import MainPage from './Page/MainPage';

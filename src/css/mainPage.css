@@ -10,9 +10,55 @@
 .upload-button{
     position: absolute;
     width: 150px;
-    height:40px;
+    height: 40px;
     bottom: 40px;
     left: 50%;
     transform: translateX(-50%);
-    
+}
+#recipeCard{
+    width: 100%;
+    height: 0;
+    padding-bottom:100%;
+    background: url("../Image/logo.png") no-repeat center / cover;
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 4px 4px 5px rgba(125,125,125,0.3);
+}
+#recipeCard div.cardText{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    padding-bottom:100%;
+    background-color: white;
+    left:0;
+    bottom:0;
+    margin-top: 50%;
+    text-align: start;
+    padding: 10px;
+}
+#recipeCard div.cardText h3{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+}
+#recipeCard div.cardText p{
+    font-size: 14px;
+}
+#recipeCard div.cardText p:last-child {
+    font-size: 15px;
+    position: relative;
+    margin-right: 14px;
+    margin-top:12px;
+    align-self: flex-end;
+}
+#recipeCard div.cardText p:last-child::before {
+    content:"";
+    position: absolute;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url("../Image/clock.svg") no-repeat center/contain;
+    top:0px;
+    left:-20px;
 }

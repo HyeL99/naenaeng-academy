@@ -5,13 +5,13 @@ import { Link } from 'react-router-dom'
 
 const Top = () => {
   return (
-    <div className="navbar">
+    <div className="navbar flex jusSpaAnd AlnCen">
       <div>
         <a href="/">
           <img src='http://drive.google.com/uc?export=view&id=1EtxNPzJNR6KnaOFzbeYUlx0ZRROQWtQV' style={{height:"2rem", width:"auto"}} />
         </a>
       </div>
-      <div className='search-place'>
+      <div className='search-place flex alnCen'>
         <input type="text" style={{width:"30vw"}} />
         <button className='search-button'>
           <a href="/search">

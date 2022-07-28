@@ -1,17 +1,7 @@
 .navbar {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     padding: 0 10vw;
     padding-top: 1.8rem;
     padding-bottom: 1rem;
-}
-input {
-    border:0;
-    background-color: rgba(0, 0, 0, 0);
-}
-input:focus-visible {
-    outline: none;
 }
 button{
     background-color: white;
@@ -24,15 +14,9 @@ button{
     height: 2rem;
     border-radius: 2.5rem;
     padding: 0 0.5rem;
-    display: flex;
-    align-items: center;
 }
 .search-button{
     width:auto;
     height: auto;
     background-color: rgba(0, 0, 0, 0);
-}
-a {
-    text-decoration: none;
-    color:black;
 }

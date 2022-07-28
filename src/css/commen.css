@@ -1,0 +1,43 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+input {
+  border: 0;
+  background-color: transparent;
+}
+input:focus-visible {
+  outline: none;
+}
+
+/* flex */
+.flex {
+  display: flex;
+}
+.fCol {
+  flex-direction: column;
+}
+.jusCen {
+  justify-content: center;
+}
+.jusEnd {
+  justify-content: flex-end;
+}
+.jusSpaBet {
+  justify-content: space-between;
+}
+.jusSpaAnd {
+  justify-content: space-around;
+}
+.alnStr {
+  align-items: flex-start;
+}
+.alnCen {
+  align-items: center;
+}
+.alnEnd {
+  align-items: flex-end;
+}
+.fWrap {
+  flex-wrap: wrap;
+}
