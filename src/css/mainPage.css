@@ -18,7 +18,7 @@
 #recipeCard{
     width: 100%;
     height: 0;
-    padding-bottom:100%;
+    padding-bottom:62%;
     background: url("../Image/logo.png") no-repeat center / cover;
     position: relative;
     border-radius: 30px;
@@ -27,11 +27,11 @@
 }
 #recipeCard div.cardText{
     position: absolute;
-    width: 100%;
-    height: 30%;
+    width: 35%;
+    height: 100%;
     padding-bottom:100%;
     background-color: white;
-    left:0;
+    right:0;
     bottom:0;
     margin-top: 50%;
     text-align: start;
@@ -45,12 +45,14 @@
 #recipeCard div.cardText p{
     font-size: 14px;
 }
+#recipeCard div.cardText p:nth-of-type(1){
+    line-height: 2;
+}
 #recipeCard div.cardText p:last-child {
     font-size: 15px;
-    position: relative;
-    margin-right: 14px;
-    margin-top:12px;
-    align-self: flex-end;
+    position: absolute;
+    bottom:7%;
+    right: 7%;
 }
 #recipeCard div.cardText p:last-child::before {
     content:"";

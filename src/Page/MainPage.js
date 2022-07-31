@@ -15,6 +15,15 @@ const MainPage = () => {
           <Col sm={12} md={6} lg={3}>
             <RecipeCard />
           </Col>
+          <Col sm={12} md={6} lg={3}>
+            <RecipeCard />
+          </Col>
+          <Col sm={12} md={6} lg={3}>
+            <RecipeCard />
+          </Col>
+          <Col sm={12} md={6} lg={3}>
+            <RecipeCard />
+          </Col>
         </Row>
       </div>
       <div className='section3'>
