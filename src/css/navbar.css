@@ -1,7 +1,9 @@
 .navbar {
+    background: white;
     padding: 0 10vw;
     padding-top: 1.8rem;
     padding-bottom: 1rem;
+    margin-bottom: 5px;
 }
 button{
     background-color: white;
