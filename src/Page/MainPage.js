@@ -9,7 +9,7 @@ import CategoryCard from '../components/CategoryCard'
 
 const MainPage = () => {
   let i = [1,2,3,4]
-  let j = [1,2,3,4,5,6,7,8]
+  let j = [1,2,3,4]
   let k = [1,2]
   let l = [1,2,3,4,5,6,7,8,9,10,11,12]
   return (
@@ -35,7 +35,7 @@ const MainPage = () => {
           <h2>[업로드된 레시피]</h2>
           <Row>
             {i?.map((i)=>(
-              <Col xs={12} md={6}>
+              <Col xs={12} md={3}>
               <RecipeCard />
             </Col>
             ))}
@@ -48,14 +48,14 @@ const MainPage = () => {
           <h2>[추천 레시피 영상]</h2>
           <Row>
             {j?.map((j)=>(
-              <Col xs={6} md={3}>
+              <Col xs={12} md={3}>
                 <VideoCard />
               </Col>
             ))}
           </Row>
         </div>
       </div>
-      <div className='section5'>
+      {/* <div className='section5'>
         <div className="inner">
         <h2>[게시판]</h2>
           <Row>
@@ -66,7 +66,7 @@ const MainPage = () => {
             ))}
           </Row>
         </div>
-      </div>
+      </div> */}
     </div>
 
   )
