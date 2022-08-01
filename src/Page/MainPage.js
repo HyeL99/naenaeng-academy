@@ -35,7 +35,7 @@ const MainPage = () => {
           <h2>[업로드된 레시피]</h2>
           <Row>
             {i?.map((i)=>(
-              <Col xs={12} md={6} lg={3}>
+              <Col xs={12} md={6}>
               <RecipeCard />
             </Col>
             ))}
@@ -48,7 +48,7 @@ const MainPage = () => {
           <h2>[추천 레시피 영상]</h2>
           <Row>
             {j?.map((j)=>(
-              <Col xs={6} md={3} lg={3}>
+              <Col xs={6} md={3}>
                 <VideoCard />
               </Col>
             ))}
