@@ -79,5 +79,31 @@
       "date": "2022-07-25T12:48:29.314Z",
       "scrap": 3
     }
+  ],
+  "video": [
+    {
+      "index" : 1,
+      "title" : "영상1",
+      "url" : "",
+      "image" : "a"
+    },
+    {
+      "index" : 2,
+      "title" : "영상2",
+      "url" : "",
+      "image" : "a"
+    },
+    {
+      "index" : 3,
+      "title" : "영상3",
+      "url" : "",
+      "image" : "a"
+    },
+    {
+      "index" : 4,
+      "title" : "영상4",
+      "url" : "",
+      "image" : "a"
+    }
   ]
 }

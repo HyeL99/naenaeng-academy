@@ -59,9 +59,9 @@ const MainPage = () => {
         <div className="inner">
           <h2>[추천 레시피 영상]</h2>
           <Row>
-            {j?.map((j)=>(
-              <Col xs={12} md={3}>
-                <VideoCard />
+            {board?.video.map((video)=>(
+              <Col xs={12} md={3} key={video.index}>
+                <VideoCard video={video}/>
               </Col>
             ))}
           </Row>

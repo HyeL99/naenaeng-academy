@@ -4,10 +4,10 @@ import React from 'react'
 // hover : 영상 제목 노출
 //
 // 클릭하면 해당 영상 페이지로 옮겨진다. 
-const VideoCard = () => {
+const VideoCard = ({video}) => {
   return (
     <button id="videoCard">
-      <p>추천 레시피 영상 제목</p>
+      <p>{`${video.title}`}</p>
     </button>
   )
 }
