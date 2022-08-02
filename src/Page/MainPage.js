@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import CarouselItem from '../components/CarouselItem'
 import {Row, Col, Card, Button} from 'react-bootstrap'
 import '../css/mainPage.css'
@@ -6,12 +6,24 @@ import RecipeCard from '../components/RecipeCard'
 import VideoCard from '../components/VideoCard'
 import NoticeBoardCard from '../components/NoticeBoardCard'
 import CategoryCard from '../components/CategoryCard'
+import data from "../db.json"
 
 const MainPage = () => {
   let i = [1,2,3,4]
   let j = [1,2,3,4]
   let k = [1,2]
   let l = [1,2,3,4,5,6,7,8,9,10,11,12]
+  let [board, setBoard] = useState(data);
+
+  // useEffect(()=>{
+  //   fetch('http://localhost:8000/recipe.json')
+  //   .then(res => res.json())
+  //   .then(data => console.log(data))
+  //   .then(data => setBoard(data))
+  //   .then(console.log(board));
+  // },[])
+
+  console.log(board);
   return (
     <div className='main-page'>
       <div className='section1'>
@@ -34,10 +46,10 @@ const MainPage = () => {
         <div className="inner">
           <h2>[업로드된 레시피]</h2>
           <Row>
-            {i?.map((i)=>(
-              <Col xs={12} md={3}>
-              <RecipeCard />
-            </Col>
+            {board?.recipe.map((recipe)=>(
+              <Col xs={12} md={6} key={recipe.index}>
+                <RecipeCard  recipe={recipe}/>
+              </Col>
             ))}
           </Row>
         </div>
