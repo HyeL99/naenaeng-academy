@@ -1,0 +1,135 @@
+#uploadPage{
+    row-gap: 20px;
+    background: white;
+    width: 900px;
+    padding:5%;
+    position: relative;
+    border-radius: 50px;
+    box-shadow: 0 0 15px rgba(125,125,125,0.5);
+}
+#uploadPage input{
+    background: white;
+    border-radius: 10px;
+    border: 1px solid #f0f0f0;
+}
+#uploadPage h3{
+    line-height:2;
+}
+#uploadPage button.close {
+    position: absolute;
+    right:0%;
+    top:4%;
+    font-size: 30px;
+    color: #aaa;
+}
+#uploadPage h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+#uploadPage .recipeTitle{
+    width: 100%;
+    height: 50px;
+}
+#uploadPage .recipeTitle h3{
+    width: 15%;
+}
+#uploadPage .recipeTitle input{
+    width: 80%;
+    height: 100%;
+}
+#uploadPage .recipeCategory {
+    width: 55%;
+    height: 50px;
+}
+#uploadPage .recipeCategory h3{
+    width: 25%;
+}
+#uploadPage .recipeCategory select{
+    width: 30%;
+    height: 50px;
+    background-color: white;
+    border: 1px solid #f0f0f0;
+    appearance: none;
+    border-radius: 10px;;
+}
+#uploadPage .recipeTime {
+    width: 30%;
+    height: 50px;
+    position: relative;
+}
+#uploadPage .recipeTime h3 {
+    width: 30%;
+}
+#uploadPage .recipeTime input {
+    width: 50%;
+    margin-right:20px;
+    height: 50px;
+}
+#uploadPage .recipeTime::after {
+    content:"분";
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    height:16px;
+    width:16px;
+    right:0;
+    top:calc(50% - 8px);
+}
+#uploadPage .recipeUse{
+    width: 100%;
+}
+#uploadPage .recipeUse input{
+    width: 100%;
+    height: 150px;
+}
+#uploadPage .recipeTag{
+    width:100%;
+}
+#uploadPage .recipeTag input{
+    width: 100%;
+    height: 50px;
+}
+#uploadPage .recipePicture{
+    width: 100%;
+}
+#uploadPage .recipePicture h3{
+    width: 20%;
+}
+#uploadPage .recipePicture form{
+    width: 85%;
+    border-radius: 10px;
+    border: 1px solid #f0f0f0;
+    background: white;
+    height: 40px;
+    position: relative;
+}
+#uploadPage .recipePicture form button{
+    position: absolute;
+    width: 25%;
+    height:32px;
+    border-radius: 10px;
+    background: #fdba02;
+    right: 4px;
+    top: calc(50% - 16px);
+    color:white;
+    
+}
+#uploadPage .recipeText{
+    width:100%;
+}
+#uploadPage .recipeText input{
+    width: 100%;
+    height: 300px;
+}
+#uploadPage>button.recipeUpload {
+    margin: 0 auto;
+    margin-top: 100px;
+    background: #fdba02;
+    color:white;
+    width: 25%;
+    height: 50px;
+    font-weight: 700;
+    border-radius: 25px;;
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import '../css/mainPage.css'
 
 const CarouselItem = () => {
@@ -60,7 +61,7 @@ const CarouselItem = () => {
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                className="d-block w-100"
+                className="d-block w-100" 
                 src="holder.js/800x400?text=Fifth slide&bg=20232a"
                 alt="Fifth slide"
                 />
@@ -73,9 +74,11 @@ const CarouselItem = () => {
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
-        <button className='upload-button'>
-            <img src="#" />
-        </button>
+        <Link to={`/upload`}>
+            <button className='upload-button'>
+                <img src="#" />
+            </button>
+        </Link>
     </div>
   )
     
