@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../css/uploadPage.css'
 
 const UploadCard = () => {
   return (
     <div className='inner flex alnStr fWrap jusSpaBet' id='uploadPage'>
-      <button className='close'>X</button>
+      <Link to={`/`}><button className='close'>X</button></Link>
       <h2>레시피 업로드</h2>
       <div className="recipeTitle flex jusSpaBet alnCen">
         <h3>레시피 제목</h3>
@@ -43,7 +44,8 @@ const UploadCard = () => {
       </div>
       <div className="recipeText">
         <h3>내용</h3>
-        <input type="text" placeholder='레시피를 자세하게 기록해주세요 :D'/>
+        <textarea name="" id="" placeholder='레시피를 자세하게 기록해주세요 :D'></textarea>
+        {/* <input type="text" placeholder='레시피를 자세하게 기록해주세요 :D'/> */}
       </div>
       <button className="recipeUpload">업로드하기</button>
     </div>

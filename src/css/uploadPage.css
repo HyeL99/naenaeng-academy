@@ -119,7 +119,7 @@
 #uploadPage .recipeText{
     width:100%;
 }
-#uploadPage .recipeText input{
+#uploadPage .recipeText textarea{
     width: 100%;
     height: 300px;
 }
