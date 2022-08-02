@@ -76,7 +76,7 @@ const CarouselItem = () => {
         </Carousel>
         <Link to={`/upload`}>
             <button className='upload-button'>
-                <img src="#" />
+                UPLOAD RECIPE {'>>'}
             </button>
         </Link>
     </div>

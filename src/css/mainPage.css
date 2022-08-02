@@ -19,12 +19,15 @@
 }
 .upload-button{
     position: absolute;
-    width: 150px;
+    width: 250px;
     height: 40px;
     bottom: 40px;
     left: 50%;
     transform: translateX(-50%);
     background: #fdba02;
+    color:white;
+    font-weight: 700;
+    border-radius: 10px;
 }
 .section1{
     background-color: #fee190 !important;
